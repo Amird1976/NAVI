@@ -7,3 +7,8 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
   background-color: #f3f4f6;
 }
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

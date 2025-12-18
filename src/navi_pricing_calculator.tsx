@@ -208,6 +208,9 @@ const NAVIPricingCalculator = () => {
             <Shield className="w-10 h-10 md:w-12 md:h-12 text-white" />
             <div>
               <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">NAVI Forensic Suite</h1>
+              <button onClick={() => window.print()} className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold mb-4 no-print shadow-lg hover:bg-blue-50">
+              🖨️ הדפס הצעה / שמור כ-PDF
+              </button>
               <p className="text-blue-100 text-base md:text-lg">מחשבון מחירים - V12 Enterprise Edition</p>
             </div>
           </div>
